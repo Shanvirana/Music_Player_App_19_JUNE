@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.dell.music_player_app_19_june.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Havana Song"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="40dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/havana_song"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:id="@+id/start"
+            android:background="#FF1744"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="70px"
+            android:layout_marginRight="50px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pause"
+            android:background="#FF1744"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:text="Pause"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="30px"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="stop"
+            android:background="#FF1744"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:id="@+id/stop"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:layout_marginTop="30px"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
